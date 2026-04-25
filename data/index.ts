@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Journey", link: "#journey" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -73,7 +73,13 @@ export const projects = [
     title: "StudyTracker",
     des: "A student productivity app to organize assignments, exams, and study time — with a built-in AI chatbot assistant.",
     img: "/StudyTracker.png",
-    iconLists: ["/re.svg", "/tailwindcss.svg", "/nodejs.svg", "/mongodb.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tailwindcss.svg",
+      "/nodejs.svg",
+      "/mongodb.svg",
+      "/vitejs.svg",
+    ],
     link: "https://github.com/ibtihel11/StudyTracker",
   },
   {
@@ -89,7 +95,14 @@ export const projects = [
     title: "CompanyDB Manager",
     des: "A web-based database management system for an electronics retail company, built with PHP and a full relational DB backend.",
     img: "/CompanyDBManager.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/php.svg", "/sql.svg", "/laragon.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/php.svg",
+      "/sql.svg",
+      "/laragon.svg",
+    ],
     link: "https://github.com/ibtihel11/CompanyDBManager",
   },
   {
@@ -125,98 +138,32 @@ export const projects = [
     link: "https://github.com/ibtihel11/portfolio",
   },
 ];
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
+export const learningExperiences = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineering — ISIMS",
+    desc: "Currently an engineering student at the Higher Institute of Computer Science and Multimedia of Sfax. Focused on practical, project-based learning covering software design, web development, databases, OOP, and machine learning.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Integrated Preparatory Cycle — ISIMS",
+    desc: "Completed a two-year preparatory cycle (2023–2025) as promotion major, finishing first in my class. Built a strong foundation in mathematics, physics, algorithms, programming, and problem-solving.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Technical Baccalaureate",
+    desc: "Graduated from High School in 2023 with highest distinction. Technical background in electronics, mechanics, and applied sciences.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Self-Taught & Open Source Learning",
+    desc: "Completed multiple certifications in different technologies and continuously building projects to reinforce skills in full-stack development and AI integration.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

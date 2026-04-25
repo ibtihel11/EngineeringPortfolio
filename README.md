@@ -27,7 +27,7 @@ A modern, interactive developer portfolio built with **Next.js**, showcasing my 
 ## 🤸 Run Locally
 
 ```bash
-git clone https://github.com/ibtihel11/StudentPortfolio.git
+git clone https://github.com/ibtihel11/EngineeringPortfolio.git
 cd portfolio
 npm install
 npm run dev

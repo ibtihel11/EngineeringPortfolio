@@ -15,15 +15,10 @@ const RecentProjects = () => {
         <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-32">
           {projects.map((item) => (
             <div
-              className="lg:min-h-[38rem] h-[30rem] flex items-center justify-center sm:w-[28rem] w-[80vw]"
+              className="lg:min-h-[38rem] h-[30rem] flex items-center justify-center sm:w-[28rem] w-[80vw] cursor-pointer"
               key={item.id}
+              onClick={() => window.open(item.link, "_blank")}
             >
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full h-full"
-              >
                 <PinContainer title={item.link} href={item.link}>
                   <div className="relative flex items-center justify-center sm:w-[28rem] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-6">
                     <div
@@ -81,7 +76,6 @@ const RecentProjects = () => {
                     </div>
                   </div>
                 </PinContainer>
-              </a>
             </div>
           ))}
         </div>

@@ -149,14 +149,14 @@ export const learningExperiences = [
   {
     id: 2,
     title: "Integrated Preparatory Cycle — ISIMS",
-    desc: "Completed a two-year preparatory cycle (2023–2025) as promotion major, finishing first in my class. Built a strong foundation in mathematics, physics, algorithms, programming, and problem-solving.",
+    desc: "Completed a two-year preparatory cycle (2023–2025) as promotion major. Built a strong foundation in mathematics, physics, algorithms, programming, and problem-solving.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Technical Baccalaureate",
-    desc: "Graduated from High School in 2023 with highest distinction. Technical background in electronics, mechanics, and applied sciences.",
+    desc: "Graduated from High School in 2023 with highest distinction (Very good). Technical background in electronics, mechanics, and applied sciences.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },

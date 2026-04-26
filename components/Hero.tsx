@@ -57,10 +57,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg">
-            Passionate about building practical, user-friendly applications with a focus on development and AI integration.
+            Passionate about turning ideas into real, working applications with a growing interest in AI integration.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

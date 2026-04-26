@@ -141,104 +141,107 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 1 && (
-            <div className="mt-6 flex flex-col gap-6 z-10 justify-center h-full">
-              <div
-                className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-              >
-                {title}
-              </div>
-              <div>
-                <p className="text-sm text-gray-400 mb-2">Frontend</p>
-                <div className="flex gap-4 flex-wrap">
-                  <i className="devicon-html5-plain colored text-6xl"></i>
-                  <i className="devicon-css3-plain colored text-6xl"></i>
-                  <i className="devicon-javascript-plain colored text-6xl"></i>
-                  <i className="devicon-react-plain colored text-6xl"></i>
-                  <i className="devicon-bootstrap-plain colored text-6xl"></i>
-                  <i className="devicon-tailwindcss-plain colored text-6xl"></i>
-                </div>
-              </div>
+  <div className="mt-2 flex flex-col gap-6 z-10">
+    <div>
+      <p className="text-sm text-gray-400 mb-2">Frontend</p>
+      <div className="flex gap-4 flex-wrap">
+        <i className="devicon-html5-plain colored text-6xl"></i>
+        <i className="devicon-css3-plain colored text-6xl"></i>
+        <i className="devicon-javascript-plain colored text-6xl"></i>
+        <i className="devicon-react-plain colored text-6xl"></i>
+        <i className="devicon-bootstrap-plain colored text-6xl"></i>
+        <i className="devicon-tailwindcss-plain colored text-6xl"></i>
+      </div>
+    </div>
 
-              <div>
-                <p className="text-sm text-gray-400 mb-2">Backend</p>
-                <div className="flex gap-4 flex-wrap">
-                  <i className="devicon-java-plain colored text-6xl"></i>
-                  <i className="devicon-nodejs-plain colored text-6xl"></i>
-                  <i className="devicon-dotnetcore-plain colored text-6xl"></i>
-                  <i className="devicon-csharp-plain colored text-6xl"></i>
-                  <i className="devicon-php-plain colored text-6xl"></i>
-                </div>
-              </div>
+    <div>
+      <p className="text-sm text-gray-400 mb-2">Backend</p>
+      <div className="flex gap-4 flex-wrap">
+        <i className="devicon-java-plain colored text-6xl"></i>
+        <i className="devicon-nodejs-plain colored text-6xl"></i>
+        <i className="devicon-dotnetcore-plain colored text-6xl"></i>
+        <i className="devicon-csharp-plain colored text-6xl"></i>
+        <i className="devicon-php-plain colored text-6xl"></i>
+      </div>
+    </div>
 
-              <div>
-                <p className="text-sm text-gray-400 mb-2">Databases</p>
-                <div className="flex gap-4 flex-wrap">
-                  <i className="devicon-oracle-original colored text-6xl"></i>
-                  <i className="devicon-microsoftsqlserver-plain colored text-6xl"></i>
-                  <i className="devicon-mysql-plain colored text-6xl"></i>
-                  <i className="devicon-mongodb-plain colored text-6xl"></i>
-                </div>
-              </div>
-            </div>
-          )}
+    <div>
+      <p className="text-sm text-gray-400 mb-2">Databases</p>
+      <div className="flex gap-4 flex-wrap">
+        <i className="devicon-oracle-original colored text-6xl"></i>
+        <i className="devicon-microsoftsqlserver-plain colored text-6xl"></i>
+        <i className="devicon-mysql-plain colored text-6xl"></i>
+        <i className="devicon-mongodb-plain colored text-6xl"></i>
+      </div>
+    </div>
 
-          {id === 5 && (
-            <div className="mt-6 flex flex-col gap-6 z-10">
-              <div>
-                <p className="text-sm text-gray-400 mb-2">Tools</p>
-                <div className="flex gap-4 flex-wrap">
-                  <i className="devicon-vscode-plain colored text-6xl"></i>
-                  <i className="devicon-visualstudio-plain colored text-6xl"></i>
-                  <i className="devicon-intellij-plain colored text-6xl"></i>
-                  <i className="devicon-eclipse-plain colored text-6xl"></i>
-                  <i className="devicon-unifiedmodelinglanguage-plain colored text-6xl"></i>
-                  <i className="devicon-postman-plain colored text-6xl"></i>
-                </div>
-                <div className="mb-8"></div>
-                <div className="flex gap-3 flex-wrap">
-                  <i className="devicon-github-plain colored text-6xl"></i>
-                  <i className="devicon-git-plain colored text-6xl"></i>
-                  <i className="devicon-amazonwebservices-plain-wordmark colored text-6xl"></i>
-                  <i className="devicon-unity-plain colored text-6xl"></i>
-                  <i className="devicon-blender-original colored text-6xl"></i>
-                </div>
-              </div>
+    <div>
+      <p className="text-sm text-gray-400 mb-2">Concepts</p>
+      <div className="flex gap-2 flex-wrap">
+        {[
+          "REST APIs",
+          "MVC",
+          "Data Structures",
+          "Networking",
+          "OOP",
+          "XML / JSON",
+          "UML",
+        ].map((concept) => (
+          <span
+            key={concept}
+            className="text-xs px-3 py-1 rounded-full border border-white/20 text-gray-300 bg-white/5"
+          >
+            {concept}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
 
-              <div>
-                <p className="text-sm text-gray-400 mb-2">AI / Data</p>
-                <div className="flex gap-4 flex-wrap">
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                    className="w-16 h-16"
-                  />
-                  <i className="devicon-hadoop-plain colored text-6xl"></i>
-                  <i className="devicon-apachespark-plain-wordmark colored text-6xl"></i>
-                  <i className="devicon-scikitlearn-plain colored text-6xl"></i>
-                </div>
-              </div>
+{id === 5 && (
+  <div className="mt-6 flex flex-col gap-6 z-10">
+    <div>
+      <p className="text-sm text-gray-400 mb-2">IDEs & Editors</p>
+      <div className="flex gap-4 flex-wrap">
+        <i className="devicon-vscode-plain colored text-6xl"></i>
+        <i className="devicon-visualstudio-plain colored text-6xl"></i>
+        <i className="devicon-intellij-plain colored text-6xl"></i>
+        <i className="devicon-eclipse-plain colored text-6xl"></i>
+        <i className="devicon-postman-plain colored text-6xl"></i>
+      </div>
+    </div>
+    <div>
+        <p className="text-sm text-gray-400 mb-2">AI / Data</p>
+        <div className="flex gap-4 flex-wrap">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+            className="w-16 h-16"
+          />
+          <i className="devicon-scikitlearn-plain colored text-6xl"></i>
+          <i className="devicon-hadoop-plain colored text-6xl"></i>
+          <i className="devicon-apachespark-plain-wordmark colored text-6xl"></i>
+        </div>
+      </div>
+    <div>
+      <p className="text-sm text-gray-400 mb-2">DevOps & Cloud</p>
+      <div className="flex gap-4 flex-wrap">
+        <i className="devicon-git-plain colored text-6xl"></i>
+        <i className="devicon-github-plain colored text-6xl"></i>
+        <i className="devicon-amazonwebservices-plain-wordmark colored text-6xl"></i>
+      </div>
+    </div>
 
-              <div>
-                <p className="text-sm text-gray-400 mb-2">Concepts</p>
-                <div className="flex gap-2 flex-wrap">
-                  {[
-                    "REST APIs",
-                    "MVC",
-                    "Data Structures",
-                    "Networking",
-                    "OOP",
-                    "XML / JSON",
-                  ].map((concept) => (
-                    <span
-                      key={concept}
-                      className="text-xs px-3 py-1 rounded-full border border-white/20 text-gray-300 bg-white/5"
-                    >
-                      {concept}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
+    <div>
+      <p className="text-sm text-gray-400 mb-2">Game Dev</p>
+      <div className="flex gap-4 flex-wrap">
+        <i className="devicon-unity-plain colored text-6xl"></i>
+        <i className="devicon-blender-original colored text-6xl"></i>
+      </div>
+    </div>
+    
+  </div>
+)}
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}

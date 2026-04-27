@@ -1,4 +1,4 @@
-# 🌐 Ibtihel's Portfolio (Next.js)
+# 🌐 Ibtihel's Portfolio 
 
 A modern, interactive developer portfolio built with **Next.js**, showcasing my skills, projects, and growth as a software engineering student.
 

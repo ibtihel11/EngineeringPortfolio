@@ -5,13 +5,13 @@ const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/yourusername",
+    link: "https://github.com/ibtihel11",
     label: "GitHub",
   },
   {
     id: 2,
     img: "/link.svg",
-    link: "https://linkedin.com/in/yourusername",
+    link: "https://www.linkedin.com/in/ibtihel-yengui/",
     label: "LinkedIn",
   },
 ];

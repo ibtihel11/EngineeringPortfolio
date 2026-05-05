@@ -70,6 +70,28 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "GitPeek",
+    des: "A full-stack data analytics platform that analyzes real GitHub Archive events to surface technology trends, developer behavior, and ecosystem insights.",
+    img: "/GitPeek.png",
+    iconLists: [
+      "/py.svg",
+      "/fastapi.svg",
+      "/re.svg",
+      "/tailwindcss.svg",
+      "/vitejs.svg",
+    ],
+    link: "https://github.com/ibtihel11/GitPeek",
+  },
+  {
+    id: 2,
+    title: "PawSight",
+    des: "A deep learning application designed to classify images of cats and dogs with high accuracy and speed using a personal trained model.",
+    img: "/PawSight.png",
+    iconLists: ["/re.svg", "/css.svg", "/py.svg", "/flask.svg", "/tf.svg"],
+    link: "https://github.com/ibtihel11/PawSight",
+  },
+  {
+    id: 3,
     title: "StudyTracker",
     des: "A student productivity app to organize assignments, exams, and study time — with a built-in AI chatbot assistant.",
     img: "/StudyTracker.png",
@@ -83,7 +105,7 @@ export const projects = [
     link: "https://github.com/ibtihel11/StudyTracker",
   },
   {
-    id: 2,
+    id: 4,
     title: "EcoCollect",
     des: "Fully architected eco-data platform using Next.js and XML for data transformation and storage, with complete system diagrams.",
     img: "/EcoCollect.png",
@@ -91,7 +113,15 @@ export const projects = [
     link: "https://github.com/waste-collector/EcoCollect",
   },
   {
-    id: 3,
+    id: 5,
+    title: "JS Games & Challenges",
+    des: "A collection of fun JavaScript projects and games built for FreeCodeCamp's JS certification — great for seeing JS in action.",
+    img: "/DevKit.png",
+    iconLists: ["/js.svg", "/html.svg", "/css.svg", "/json.svg"],
+    link: "https://github.com/ibtihel11/JSDevKit",
+  },
+  {
+    id: 6,
     title: "CompanyDB Manager",
     des: "A web-based database management system for an electronics retail company, built with PHP and a full relational DB backend.",
     img: "/CompanyDBManager.png",
@@ -106,7 +136,7 @@ export const projects = [
     link: "https://github.com/ibtihel11/CompanyDBManager",
   },
   {
-    id: 4,
+    id: 7,
     title: "Build Your PC",
     des: "An interactive 3D game built in Unity and Blender with C#, teaching players real PC assembly and hardware engineering concepts.",
     img: "/BYP.png",
@@ -114,7 +144,7 @@ export const projects = [
     link: "https://github.com/3d-project-pc",
   },
   {
-    id: 5,
+    id: 8,
     title: "Ecommerce Platform",
     des: "A fully functional .NET ecommerce site with separate client, admin, and manager roles and complete authentication logic.",
     img: "/DotnetWebsite.jpg",
@@ -122,17 +152,9 @@ export const projects = [
     link: "https://github.com/ibtihel11/DotnetWebsite",
   },
   {
-    id: 6,
-    title: "JS Games & Challenges",
-    des: "A collection of fun JavaScript projects and games built for FreeCodeCamp's JS certification — great for seeing JS in action.",
-    img: "/DevKit.png",
-    iconLists: ["/js.svg", "/html.svg", "/css.svg", "/json.svg"],
-    link: "https://github.com/ibtihel11/JSDevKit",
-  },
-  {
-    id: 7,
+    id: 9,
     title: "First Portfolio",
-    des: "My original portfolio built from scratch with pure HTML, CSS, and JS — a snapshot of where my journey started.",
+    des: "My original portfolio built from scratch with pure HTML, CSS, and JS. A snapshot of where my journey started. This was developed for a responsive web design course.",
     img: "/Portfolio.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "https://github.com/ibtihel11/portfolio",

@@ -163,7 +163,7 @@ export const BentoGridItem = ({
               </div>
 
               <div>
-                <p className="text-sm text-gray-400 mb-2">Concepts</p>
+                <p className="text-sm text-gray-400 mb-2 text-left">Concepts</p>
                 <div className="flex gap-2 flex-wrap">
                   {[
                     "REST APIs",

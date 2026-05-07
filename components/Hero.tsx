@@ -43,13 +43,22 @@ const Hero = () => {
             a growing interest in AI integration.
           </p>
 
-          <a href="#projects">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex justify-center gap-6">
+            <a href="#projects">
+              <MagicButton
+                title="Check my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="/cv.pdf" target="_blank">
+              <MagicButton
+                title="View my CV"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

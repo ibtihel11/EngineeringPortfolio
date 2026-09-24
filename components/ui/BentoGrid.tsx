@@ -197,7 +197,6 @@ export const BentoGridItem = ({
                   <i className="devicon-github-plain colored text-6xl"></i>
                   <i className="devicon-postman-plain colored text-6xl"></i>
                   <i className="devicon-vscode-plain colored text-6xl"></i>
-                  <i className="devicon-visualstudio-plain colored text-6xl"></i>
                   <i className="devicon-intellij-plain colored text-6xl"></i>
                 </div>
               </div>
@@ -212,7 +211,6 @@ export const BentoGridItem = ({
                   />
                   <i className="devicon-pytorch-plain colored text-6xl"></i>
                   <i className="devicon-scikitlearn-plain colored text-6xl"></i>
-                  <i className="devicon-hadoop-plain colored text-6xl"></i>
                   <i className="devicon-apachespark-plain-wordmark colored text-6xl"></i>
                 </div>
               </div>
